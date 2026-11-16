@@ -1,5 +1,7 @@
 # agentaudit
 
+[![CI](https://github.com/einar143/agentaudit/actions/workflows/ci.yml/badge.svg)](https://github.com/einar143/agentaudit/actions/workflows/ci.yml)
+
 Static security scanner for AI-agent configuration: MCP server configs, agent
 skills and hooks.
 

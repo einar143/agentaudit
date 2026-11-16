@@ -9,7 +9,7 @@ Ordered. Each item is under an hour and done only when the rule contract in
       finding points at `file:line`. Done: AA001 findings carry a line number.
 - [ ] **SARIF reporter.** `--format sarif`, valid against the SARIF 2.1.0
       schema. Done: output loads in GitHub code scanning.
-- [ ] **GitHub Actions CI.** Run `ruff` and `pytest` on push and PR.
+- [x] **GitHub Actions CI.** Run `ruff` and `pytest` on push and PR.
 - [ ] **Inline suppression.** A documented way to ignore one finding with a
       reason. Done: suppressed findings are counted but not reported.
 
