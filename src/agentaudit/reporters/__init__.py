@@ -1,0 +1,1 @@
+"""Reporters render a ScanResult."""

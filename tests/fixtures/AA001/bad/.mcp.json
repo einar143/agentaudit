@@ -1,0 +1,20 @@
+{
+  "mcpServers": {
+    "no-version": {
+      "command": "npx",
+      "args": ["-y", "example-mcp-server"]
+    },
+    "latest-tag": {
+      "command": "npx",
+      "args": ["-y", "@example/mcp-server@latest"]
+    },
+    "python-unpinned": {
+      "command": "uvx",
+      "args": ["example-mcp-server"]
+    },
+    "windows-wrapper": {
+      "command": "cmd",
+      "args": ["/c", "npx", "-y", "@example/mcp-server"]
+    }
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "mcpServers": {
+    "npm-pinned": {
+      "command": "npx",
+      "args": ["-y", "@example/mcp-server@1.4.2"]
+    },
+    "python-pinned": {
+      "command": "uvx",
+      "args": ["example-mcp-server==0.9.1"]
+    },
+    "local-script": {
+      "command": "node",
+      "args": ["./server.js"]
+    },
+    "local-package": {
+      "command": "npx",
+      "args": ["./packages/server"]
+    },
+    "remote": {
+      "url": "https://mcp.example.com/sse"
+    }
+  }
+}
